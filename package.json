@@ -1,0 +1,24 @@
+{
+  "name": "urbandoutfitters-reviews-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loud-neighborzzz/urbandoutfitters-reviews-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loud-neighborzzz/urbandoutfitters-reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/loud-neighborzzz/urbandoutfitters-reviews-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
