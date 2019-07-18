@@ -5,6 +5,11 @@ const cors = require('cors')
 const port = 3200
 
 app.use(cors())
+
+app.get('/styles.css', (req, res) => {
+    res.sendFile(__dirname +  '/styles.css')
+})
+
 app.get('*', (req, res) => {
     console.log('server up html')
     res.sendFile(__dirname +  '/index.html')
