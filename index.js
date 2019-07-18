@@ -1,9 +1,12 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 
-const port = 3002
+const port = 3200
 
+app.use(cors())
 app.get('*', (req, res) => {
+    console.log('server up html')
     res.sendFile(__dirname +  '/index.html')
 })
 
